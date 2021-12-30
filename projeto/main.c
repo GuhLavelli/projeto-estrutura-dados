@@ -40,13 +40,13 @@ int e;
         printf("+---------------------------------------+\n");
         printf("  ESTACIONAMENTO JUQUINHA DO HIMALAYAS\n");
         printf("+---------------------------------------+\n\n");
-        printf("a) Entrada de veículo\n");
-        printf("b) Saída de veículo\n");
-        printf("c) Consulta de veículo\n");
-        printf("d) Lista de veículo\n\n");
+        printf("a) Entrada de veÃ­culo\n");
+        printf("b) SaÃ­da de veÃ­culo\n");
+        printf("c) Consulta de veÃ­culo\n");
+        printf("d) Lista de veÃ­culo\n\n");
         printf("e) Sair\n\n");
 
-        printf("Selecione a opção desejada: ");
+        printf("Selecione a opÃ§Ã£o desejada: ");
         useroption = getch ();
 
         if (useroption == 'a' || useroption == 'A')
@@ -56,26 +56,26 @@ int e;
             printf("  ESTACIONAMENTO JUQUINHA DO HIMALAYAS\n");
             printf("+---------------------------------------+\n\n");
 
-            printf("Digite a placa do veículo: ");
+            printf("Digite a placa do veÃ­culo: ");
             fflush(stdin);
             scanf("%s", &placa);
 
-            printf("Digite a marca do veículo: ");
+            printf("Digite a marca do veÃ­culo: ");
             fflush(stdin);
             scanf("%s", &marca);
 
-            printf("Digite o modelo do veículo: ");
+            printf("Digite o modelo do veÃ­culo: ");
             fflush(stdin);
             scanf("%s", &modelo);
 
-            printf("Digite a cor do veículo: ");
+            printf("Digite a cor do veÃ­culo: ");
             fflush(stdin);
             scanf("%s", &cor);
 
             e = vei_insere(placa, marca, modelo, cor, vei);
             e = lista_insere(li, *vei);
 
-            printf("Parabéns, veículo cadastrado com sucesso!\n");
+            printf("ParabÃ©ns, veÃ­culo cadastrado com sucesso!\n");
             system("pause");
         }
 
@@ -86,7 +86,7 @@ int e;
             printf("  ESTACIONAMENTO JUQUINHA DO HIMALAYAS\n");
             printf("+---------------------------------------+\n\n");
 
-            printf("Digite a placa do veículo: ");
+            printf("Digite a placa do veÃ­culo: ");
             fflush(stdin);
             scanf("%s", &placa);
 
@@ -101,7 +101,7 @@ int e;
             printf("  ESTACIONAMENTO JUQUINHA DO HIMALAYAS\n");
             printf("+---------------------------------------+\n\n");
 
-            printf("Digite a placa do veículo: ");
+            printf("Digite a placa do veÃ­culo: ");
             fflush(stdin);
             scanf("%s", &placa);
 
@@ -133,24 +133,7 @@ int e;
             system ("pause");
 
         }
-
-/*
-    e = vei_insere("LUL4S13","Ferrari","F100","Rosa tremedera", vei);
-    e = lista_insere(li, *vei);
-    e = vei_insere("DIL4M13","Chevrollet","Corsa","Vermelho PT",  vei);
-    e = lista_insere(li, *vei);
-    e = vei_insere("PCB0102","Ferrari","F100","Rosa tremedera", vei);
-    e = lista_insere(li, *vei);
-    e = vei_insere("DIL4M13","Chevrollet","Corsa","Vermelho PT",  vei);
-    e = lista_insere(li, *vei);
-    e = vei_insere("EXI0504","Ferrari","F100","Rosa tremedera", vei);
-    e = lista_insere(li, *vei);
-    e = lista_consulta(li, "PCB0102");
-    e = lista_retira(li, "EXI0504");
-    printf("%i", e);
-
-    e = lista_imprimi(li);
-*/
+        
     }
     return 0;
 }
