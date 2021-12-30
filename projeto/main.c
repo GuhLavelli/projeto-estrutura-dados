@@ -9,7 +9,7 @@ int main()
 
     setlocale(LC_ALL, "portuguese");
      printf("+---------------------------------------+\n");
-        printf("  ESTACIONAMENTO JUQUINHA DO HIMALAYAS\n");
+        printf("      ESTACIONAMENTO DO TALES\n");
         printf("+---------------------------------------+\n\n");
 
 
@@ -38,7 +38,7 @@ int e;
         char useroption;
         system("cls");
         printf("+---------------------------------------+\n");
-        printf("  ESTACIONAMENTO JUQUINHA DO HIMALAYAS\n");
+        printf("      ESTACIONAMENTO DO TALES\n");
         printf("+---------------------------------------+\n\n");
         printf("a) Entrada de veículo\n");
         printf("b) Saída de veículo\n");
@@ -53,7 +53,7 @@ int e;
         {
             system("cls");
             printf("+---------------------------------------+\n");
-            printf("  ESTACIONAMENTO JUQUINHA DO HIMALAYAS\n");
+            printf("      ESTACIONAMENTO DO TALES\n");
             printf("+---------------------------------------+\n\n");
 
             printf("Digite a placa do veículo: ");
@@ -83,7 +83,7 @@ int e;
         {
             system("cls");
             printf("+---------------------------------------+\n");
-            printf("  ESTACIONAMENTO JUQUINHA DO HIMALAYAS\n");
+            printf("      ESTACIONAMENTO DO TALES\n");
             printf("+---------------------------------------+\n\n");
 
             printf("Digite a placa do veículo: ");
@@ -98,7 +98,7 @@ int e;
         {
             system("cls");
             printf("+---------------------------------------+\n");
-            printf("  ESTACIONAMENTO JUQUINHA DO HIMALAYAS\n");
+            printf("      ESTACIONAMENTO DO TALES\n");
             printf("+---------------------------------------+\n\n");
 
             printf("Digite a placa do veículo: ");
@@ -114,7 +114,7 @@ int e;
         {
             system("cls");
             printf("+---------------------------------------+\n");
-            printf("  ESTACIONAMENTO JUQUINHA DO HIMALAYAS\n");
+            printf("      ESTACIONAMENTO DO TALES\n");
             printf("+---------------------------------------+\n\n");
 
             e = lista_imprimi(li);
@@ -126,7 +126,7 @@ int e;
         {
             system("cls");
             printf("+---------------------------------------+\n");
-            printf("  ESTACIONAMENTO JUQUINHA DO HIMALAYAS\n");
+            printf("      ESTACIONAMENTO DO TALES\n");
             printf("+---------------------------------------+\n\n");
 
             loop = 1;
